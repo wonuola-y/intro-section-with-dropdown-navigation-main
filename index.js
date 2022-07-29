@@ -16,6 +16,7 @@ button.addEventListener('click', ()=>{
    navbar.style.backgroundColor = 'white'
    navbar.style.margin = '0'
     console.log('dark mode!!!')
+    button.innerHTML = 'light';
 })
 if (every.classList.contains('dark-mode')) {
     paragraph.style.color = 'white';
