@@ -4,7 +4,7 @@ const arrow = document.querySelectorAll('i')
 const list = document.querySelectorAll('.list')
 const arr = document.querySelectorAll('.arr')
 const cancel = document.querySelector('.close')
-const open = document.querySelector('.open')
+const ham = document.querySelector('.open')
 const nav = document.querySelector('.all')
 const navbar = document.querySelector('nav')
 const container = document.querySelector('.container')
@@ -32,13 +32,14 @@ arrow[i].addEventListener('click', ()=>{
 
 }
 
-open.addEventListener('click', ()=>{
+ham.addEventListener('click', ()=>{
     nav.style.display = 'block';
     nav.style.opacity = '1';
     container.style.opacity = '0.4';
     nav.style.opacity = '1';
     nav.style.zIndex = '1';
-    open.style.transition = '2s';
+    ham.style.transitionDuration = '2s';
+
     })
 
 cancel.addEventListener('click', ()=>{
