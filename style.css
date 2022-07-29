@@ -44,7 +44,7 @@ transition: .2s;
 }
 .all > ul > li{ 
     display: flex;
-    margin: 1.5em;
+    margin: 1em;
     
 }
 
